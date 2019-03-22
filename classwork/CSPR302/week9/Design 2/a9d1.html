@@ -1,0 +1,208 @@
+<html>
+
+<title> Vertical Navigation Bar Right </title>
+
+</head>
+
+<style>
+@font-face {
+    font-family: font;
+    src: url("font.ttf");
+}
+
+body {
+
+	background-image: url("https://cdn.hipwallpaper.com/i/18/80/29cqB1.jpg");
+	 
+	background-repeat:no-repeat;
+	
+	background-size:cover;
+
+	margin:0;
+}
+
+}
+*{
+
+box-sizing:border-box;
+
+}
+
+.vertbar {
+
+	float: right;
+	
+	height: 100%;
+	
+	width: 10%;
+
+	background-color: rgba(0,150,136, 0.3)
+}
+
+
+
+ul {
+
+	list-style-type: none;	
+	
+	margin-left: 1px;
+}
+
+
+
+ul a {	
+	
+	font-family: font;
+	
+	font-size: 35px;
+	
+	color: white;
+	
+	text-decoration: none;
+	
+	margin-left: -2px;
+	
+	margin-top: 5px;
+	
+	line-height: 100px;
+}
+
+span {
+	
+	color: white;
+	
+	font-family: font;
+	
+	font-size: 35px;
+	
+	margin-top: 5px;
+	
+	margin-left: 45px;
+	
+	margin-right: 25px;
+	
+	line-height: 45px;
+		
+	display: inline-block;
+	
+	cursor: pointer;
+}
+
+.links:hover {
+
+	color: #cecece;
+
+}
+
+.box.arrow-left {
+
+    margin-top: -20px;
+}
+
+.box {
+	
+    width: 150px;
+	
+    height: 150px;
+	
+	border-radius: 10px;
+	
+    background-image: radial-gradient(rgba( 162, 167, 144, 0.4), rgba( 162, 167, 144));
+	
+    color: #fff;
+	
+    position: relative;
+	
+	margin-left: -22px;
+	
+    float: left;
+	
+	display: none;
+}
+div {
+    display: block;
+}
+
+.box.arrow-left:after {
+
+    content: " ";
+	
+	position: absolute;
+	
+	right: 60px;
+	
+	top: -15px;
+	
+	border-top: none;
+	
+	border-right: 15px solid transparent;
+	
+	border-left: 15px solid transparent;
+	
+	border-bottom: 15px solid #a2a790;
+	
+	opacity: 0.85;
+}
+
+
+.inside:hover .box {
+
+	display: block;
+
+
+}
+</style>
+
+<div class="vertbar">
+
+<ul>
+
+<li><a href="#home"> Home </li>
+
+<a class="inside"> About Us <div class="box arrow-left">
+
+<span 
+   class="links" 
+   onclick="location='#link1'">
+Link 
+</span>
+
+
+
+
+
+<span 
+   class="links" 
+   onclick="location='#link2'">
+Link 
+</span>
+
+
+
+
+
+<span 
+   class="links" 
+   onclick="location='#link3'">
+Link 
+</span>
+
+	</div>
+
+</span>
+
+
+<li><a href="#contactus"> Contact Us </li>
+
+
+
+<li><a href="#aboutme"> About Me </li>
+
+
+</ul>
+
+
+
+
+</div>
+</html>
