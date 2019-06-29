@@ -1,0 +1,170 @@
+body{
+
+	margin:0;
+	background-image: url("https://i0.wp.com/lilar.com/wp-content/uploads/2016/10/Savin-NY-Website-Background-Web.jpg?ssl=1");
+	background-repeat:no-repeat;
+	background-size:cover;
+	margin:0;
+	color: white;
+	}
+*{
+	box-sizing: border-box;
+}
+
+
+@font-face {
+    font-family: sub;
+    src: url("../fonts/sub.ttf");
+}
+
+@font-face {
+    font-family: header;
+    src: url("../fonts/title.otf");
+}
+
+@font-face {
+    font-family: nav;
+    src: url("../fonts/opb.ttf");
+}
+
+.header1{
+	
+	text-align: center;
+	height: 5%;
+	margin-top: 50px;
+}
+
+
+ .navigation{ 
+ 
+	font-size: 15px;
+	padding-top: 10px;
+	margin-top: 30px;
+	border-bottom: 2.5px solid #bfbfbf;
+	margin-bottom: -38px;
+	z-index:-1;	
+ }
+
+
+.nav{
+	margin-left: 70px;
+	font-family: header;
+	text-decoration: none;
+	color: #bfbfbf;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2.5px;
+	margin-right: 10px;
+}
+
+.nav:hover{
+
+	color: #756341;
+}
+
+.nav:after{
+
+	content: '';
+	display: block;
+	margin: auto;
+	height: 3px;
+	width: 0px;
+	margin-top: 15px;
+	background: transparent;
+	transition: width 0.2s;;
+}
+
+.nav:hover:after {
+
+  width: 100%;
+  background:#756341;
+}
+
+
+.nav:active{
+
+	color: grey;
+}
+
+.title{
+
+	color: #756341;
+	padding-top: 40px;
+	margin-left: 100px;
+	width: 200px;
+	z-index:10;
+	font-family: header;
+}
+
+.text{
+	
+	margin-top: -29px;
+	margin-left: 40px;
+	width: 400px;
+	display: block;
+	z-index:5;
+	font-family: Arial;
+	font-size: 12px;
+}
+
+.transition1 {
+  width: 0px;
+  height: 200px;
+  background-color: rgb(117, 99, 65);
+  border-radius: 15px;
+  transition: width 2s, height 4s;
+}
+
+.transition1:hover {
+  width: 500px;
+  height: 250px;
+  z-index: -10;
+  border-radius: 10px;
+}
+
+.footer{
+    background-color: rgba(117, 99, 65,0.95);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100%;
+}
+
+
+.navigation2{
+	
+	font-size: 15px;
+	padding-top: 10px;
+	margin-top: 30px;
+	margin-bottom: -38px;
+	z-index:-1;	
+ }
+ 
+.nav2{
+	
+	margin-left: 70px;
+	font-family: header;
+	text-decoration: none;
+	color: #bfbfbf;
+	text-align: left;
+	display: inline-block;
+	position: relative;
+	padding-bottom: 2.5px;
+	margin-right: 10px;
+	width: 110px;
+	height: 50px;
+	background-color:;
+	border-radius: 15px;
+	transition: width 1s, height 1s;
+	font-size: 15px;
+}
+.nav2:hover {
+  width: 150px;
+  height: 50px;
+  font-size: 16px;
+  z-index:10;
+  border-radius: 4px;
+  background-color: rgb(86, 73, 48);
+}
